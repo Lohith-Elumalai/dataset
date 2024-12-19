@@ -1,0 +1,3 @@
+2024-12-19 13:57:23,860 - INFO - Connected to database log_analysis.db
+2024-12-19 13:57:23,876 - INFO - Table 'LogAnalysisHistory' is created or already exists.
+2024-12-19 13:57:23,876 - INFO - Connected to database log_analysis.db
