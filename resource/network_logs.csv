@@ -1,0 +1,11 @@
+Timestamp,Component,Severity,Message
+19-12-2024 10:15,Router1,ERROR,Packet loss detected on interface eth0
+19-12-2024 10:16,Router1,WARNING,High latency on interface eth0
+19-12-2024 10:17,Router2,ERROR,Interface eth1 down
+19-12-2024 10:18,Router1,INFO,Interface eth0 restored
+19-12-2024 10:19,Switch3,ERROR,Port 5 flapping
+19-12-2024 10:20,Switch3,INFO,Port 5 operational
+19-12-2024 10:21,Router2,CRITICAL,BGP session reset with neighbor 192.168.1.1
+19-12-2024 10:22,Firewall,WARNING,High CPU usage detected
+19-12-2024 10:23,Firewall,ERROR,Packet drops due to high CPU usage
+19-12-2024 10:24,Router1,INFO,Configuration changes applied
