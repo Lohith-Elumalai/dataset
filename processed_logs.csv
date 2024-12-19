@@ -9,3 +9,8 @@ timestamp,log_level,message
 2024-12-19,14:30:45,WARNING Disk space running low
 2024-12-19,14:31:15,ERROR File not found: large_log_file.txt
 2024-12-19,14:32:30,INFO Log parsing completed successfully
+2024-12-19,14:28:41,ERROR Error during log processing: [Errno 2] No such file or directory
+2024-12-19,14:29:00,INFO Starting log processing for dataset X
+2024-12-19,14:30:45,WARNING Disk space running low
+2024-12-19,14:31:15,ERROR File not found: large_log_file.txt
+2024-12-19,14:32:30,INFO Log parsing completed successfully

@@ -16,3 +16,6 @@
 2024-12-19 15:13:09,982 - INFO - Inserted 5 logs into the database.
 2024-12-19 15:13:09,982 - INFO - Logs cleaned based on the provided keywords and log levels.
 2024-12-19 15:13:09,982 - INFO - Exported logs to processed_logs.csv
+2024-12-19 16:11:20,073 - INFO - Inserted 5 logs into the database.
+2024-12-19 16:11:20,073 - INFO - Logs cleaned based on the provided keywords and log levels.
+2024-12-19 16:11:20,088 - INFO - Exported logs to processed_logs.csv
