@@ -1,5 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
+
+import openai
 from analyzer import analyze_log_entry
 
 class TestAnalyzer(unittest.TestCase):
