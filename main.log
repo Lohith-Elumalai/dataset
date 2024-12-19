@@ -1,1 +1,2 @@
 2024-12-19 14:28:41,420 - ERROR - Error during log processing: [Errno 2] No such file or directory: 'large_log_file.txt'
+2024-12-19 15:03:56,285 - ERROR - Error during log processing: [Errno 2] No such file or directory: 'large_log_file.txt'
