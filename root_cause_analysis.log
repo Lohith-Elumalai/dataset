@@ -1,0 +1,5 @@
+2024-12-19 12:30:57,665 - WARNING - Invalid log entry provided.
+2024-12-19 12:30:57,665 - WARNING - Invalid log entry provided.
+2024-12-19 12:30:57,672 - INFO - Analyzing log entry: ERROR: Packet loss detected between Node A and Node B.
+2024-12-19 12:30:57,672 - INFO - Analysis completed: <MagicMock name='create().__getitem__().__getitem__().__getitem__().strip()' id='2837825787408'>
+2024-12-19 12:30:57,676 - INFO - Analyzing log entry: ERROR: Node B is unreachable.
