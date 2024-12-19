@@ -5,4 +5,8 @@
 2024-12-19 14:34:05,944 - INFO - Exported logs to processed_logs.csv
 =======
 2024-12-19 14:28:41,420 - ERROR - Error during log processing: [Errno 2] No such file or directory: 'large_log_file.txt'
+<<<<<<< HEAD
+2024-12-19 15:03:56,285 - ERROR - Error during log processing: [Errno 2] No such file or directory: 'large_log_file.txt'
+=======
 >>>>>>> 07cb5c786c02c0c9b3f502f065116769c98ee8b1
+>>>>>>> 83daaf80173af357520c2c51690a96c34a0761e8
