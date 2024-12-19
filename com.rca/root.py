@@ -2,7 +2,7 @@ import openai
 import pandas as pd
 
 # Set up your OpenAI API key
-openai.api_key = "your_openai_api_key"
+openai.api_key = "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"
 
 def parse_logs(log_file):
     """
