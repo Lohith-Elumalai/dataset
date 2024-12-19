@@ -10,3 +10,9 @@
 =======
 >>>>>>> 07cb5c786c02c0c9b3f502f065116769c98ee8b1
 >>>>>>> 83daaf80173af357520c2c51690a96c34a0761e8
+2024-12-19 15:11:59,302 - INFO - Inserted 5 logs into the database.
+2024-12-19 15:11:59,302 - INFO - Logs cleaned based on the provided keywords and log levels.
+2024-12-19 15:11:59,302 - INFO - Exported logs to processed_logs.csv
+2024-12-19 15:13:09,982 - INFO - Inserted 5 logs into the database.
+2024-12-19 15:13:09,982 - INFO - Logs cleaned based on the provided keywords and log levels.
+2024-12-19 15:13:09,982 - INFO - Exported logs to processed_logs.csv
