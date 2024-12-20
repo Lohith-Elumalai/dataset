@@ -1,4 +1,3 @@
-// Example: Hit Ratio Chart using Chart.js
 const ctx = document.getElementById('errorChart').getContext('2d');
 fetch('/api/metrics')
   .then(response => response.json())

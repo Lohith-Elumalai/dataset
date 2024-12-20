@@ -4,7 +4,6 @@ import os
 
 app = Flask(__name__)
 
-# Path to the processed logs CSV file
 PROCESSED_LOGS_PATH = "../processed_logs.csv"
 
 
@@ -16,11 +15,9 @@ def get_processed_logs():
     if not os.path.exists(PROCESSED_LOGS_PATH):
         return jsonify({"error": f"File '{PROCESSED_LOGS_PATH}' not found!"}), 404
 
-    # Load the processed logs
     try:
         df = pd.read_csv(PROCESSED_LOGS_PATH)
 
-        # Optional: Add filters for date, log level, etc.
         level = request.args.get("level")
         start_date = request.args.get("start_date")
         end_date = request.args.get("end_date")
@@ -34,7 +31,6 @@ def get_processed_logs():
         if end_date:
             df = df[df["timestamp"] <= end_date]
 
-        # Convert the DataFrame to JSON
         logs_json = df.to_dict(orient="records")
         return jsonify(logs_json)
 
@@ -50,14 +46,11 @@ def display_processed_logs():
     if not os.path.exists(PROCESSED_LOGS_PATH):
         return "<h1>Error: Processed logs file not found!</h1>"
 
-    # Load the processed logs
     try:
         df = pd.read_csv(PROCESSED_LOGS_PATH)
 
-        # Convert DataFrame to an HTML table
         html_table = df.to_html(classes="table table-striped", index=False)
 
-        # Return the HTML page
         return f"""
         <html>
         <head>
