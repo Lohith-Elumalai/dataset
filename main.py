@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 
 class LogProcessor:
-    def __init__(self, db_name="logs.db"):
+    def _init_(self, db_name="logs.db"):
         """
         Initializes the LogProcessor with a connection to the SQLite database.
         
@@ -102,7 +102,7 @@ class LogProcessor:
 
 
 class LogAnalysis:
-    def __init__(self, log_processor: LogProcessor):
+    def _init_(self, log_processor: LogProcessor):
         """
         Initializes LogAnalysis to process and analyze logs.
 
@@ -154,7 +154,7 @@ class LogAnalysis:
         logging.info(f"Exported logs to {output_file}")
 
 
-if __name__ == "__main__":
+if __name__ == "_main_":
     # Set up the log processor and analysis objects
     log_processor = LogProcessor(db_name="logs.db")
     log_analysis = LogAnalysis(log_processor=log_processor)

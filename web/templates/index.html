@@ -1,21 +1,55 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="text-center">
-    <h1>Welcome to the Log Analysis Dashboard</h1>
-    <p>Use the navigation bar to explore processed logs, error logs, and root cause analysis.</p>
+    <h1 class="mt-4">NetVision</h1>
 
-    <h3 class="mt-4">Performance Metrics</h3>
-    <div class="d-flex justify-content-center mt-3">
-        <div class="card mx-3" style="width: 18rem;">
+    <h2 class="mt-4">Enhanced Log Analysis Dashboard</h2>
+    <p class="mt-3">Navigate through the menu to explore processed logs, error logs, root cause analysis, and irrelevant logs management.</p>
+
+    <h3 class="mt-5">Performance Metrics</h3>
+    <div class="d-flex justify-content-center mt-4">
+        <div class="card mx-3 shadow-lg" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Analysis Speed</h5>
-                <p class="card-text display-6">{{ speed }} seconds</p>
+                <h5 class="card-title text-primary">Analysis Speed</h5>
+                <p class="card-text display-6 text-success">{{ speed }} seconds</p>
             </div>
         </div>
-        <div class="card mx-3" style="width: 18rem;">
+        <div class="card mx-3 shadow-lg" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Accuracy</h5>
-                <p class="card-text display-6">{{ accuracy }}%</p>
+                <h5 class="card-title text-primary">Accuracy</h5>
+                <p class="card-text display-6 text-success">{{ accuracy }}%</p>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="mt-5">Quick Actions</h3>
+    <div class="d-flex justify-content-center mt-4">
+        <div class="card mx-3 shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">View Processed Logs</h5>
+                <p class="card-text">Explore the processed log entries for detailed analysis.</p>
+                <a href="/processed_logs" class="btn btn-primary">View Logs</a>
+            </div>
+        </div>
+        <div class="card mx-3 shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Error Logs</h5>
+                <p class="card-text">Examine the raw error logs for troubleshooting.</p>
+                <a href="/errors" class="btn btn-danger">View Errors</a>
+            </div>
+        </div>
+        <div class="card mx-3 shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Root Cause Analysis</h5>
+                <p class="card-text">Understand the root causes behind errors.</p>
+                <a href="/root_cause" class="btn btn-warning">View Root Causes</a>
+            </div>
+        </div>
+        <div class="card mx-3 shadow-lg" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Irrelevant Logs</h5>
+                <p class="card-text">Manage and view the irrelevant logs removed from analysis.</p>
+                <a href="/irrelevant_logs" class="btn btn-secondary">View Irrelevant Logs</a>
             </div>
         </div>
     </div>

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Irrelevant Logs</h1>
+{% if logs %}
+<p>The following logs were identified as irrelevant and moved:</p>
+<ul>
+    {% for log in logs %}
+    <li>{{ log }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No irrelevant logs found or processed!</p>
+{% endif %}
+<a href="/">Back to Home</a>
+{% endblock %}

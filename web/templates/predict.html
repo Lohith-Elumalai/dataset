@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Predict Log Category</h1>
+<form method="POST">
+    <div class="mb-3">
+        <label for="log_message" class="form-label">Enter Log Message</label>
+        <textarea class="form-control" id="log_message" name="log_message" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Predict</button>
+</form>
+
+{% if log_message %}
+<hr>
+<h3>Prediction Result</h3>
+<p><strong>Log:</strong> {{ log_message }}</p>
+<p><strong>Predicted Category:</strong> {{ prediction }}</p>
+<p><strong>Speed:</strong> {{ speed }} seconds</p>
+<p><strong>Accuracy:</strong> {{ accuracy }}%</p>
+{% endif %}
+{% endblock %}
