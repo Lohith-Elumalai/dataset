@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Analysis Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Log Analysis Dashboard</h1>
+    <div class="metrics">
+        <h3>Total Logs: {{ total_logs }}</h3>
+        <h3>Error Logs: {{ error_count }}</h3>
+        <h3>Warning Logs: {{ warning_count }}</h3>
+    </div>
+    <div id="charts">
+        <canvas id="errorChart"></canvas>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
