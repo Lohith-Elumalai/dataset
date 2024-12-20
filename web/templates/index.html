@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Log Analysis Dashboard</title>
-    <link rel="stylesheet" href="/static/css/styles.css">
-</head>
-<body>
-    <h1>Log Analysis Dashboard</h1>
-    <div class="metrics">
-        <h3>Total Logs: {{ total_logs }}</h3>
-        <h3>Error Logs: {{ error_count }}</h3>
-        <h3>Warning Logs: {{ warning_count }}</h3>
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center">
+    <h1>Welcome to the Log Analysis Dashboard</h1>
+    <p>Use the navigation bar to explore processed logs, error logs, and root cause analysis.</p>
+
+    <h3 class="mt-4">Performance Metrics</h3>
+    <div class="d-flex justify-content-center mt-3">
+        <div class="card mx-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Analysis Speed</h5>
+                <p class="card-text display-6">{{ speed }} seconds</p>
+            </div>
+        </div>
+        <div class="card mx-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Accuracy</h5>
+                <p class="card-text display-6">{{ accuracy }}%</p>
+            </div>
+        </div>
     </div>
-    <div id="charts">
-        <canvas id="errorChart"></canvas>
-    </div>
-    <script src="/static/js/scripts.js"></script>
-</body>
-</html>
+</div>
+{% endblock %}

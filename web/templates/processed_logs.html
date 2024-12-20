@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Processed Logs</h1>
+<div class="d-flex justify-content-between align-items-center">
+    <div>
+        <p><strong>Analysis Speed:</strong> {{ speed }} seconds</p>
+        <p><strong>Accuracy:</strong> {{ accuracy }}%</p>
+    </div>
+</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            {% for column in columns %}
+            <th>{{ column }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for log in logs %}
+        <tr>
+            {% for column in columns %}
+            <td>{{ log[column] }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

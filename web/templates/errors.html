@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Error Logs</h1>
+<div class="d-flex justify-content-between align-items-center">
+    <div>
+        <p><strong>Analysis Speed:</strong> {{ speed }} seconds</p>
+        <p><strong>Accuracy:</strong> {{ accuracy }}%</p>
+    </div>
+</div>
+<pre class="bg-light p-3">{{ logs|join('') }}</pre>
+{% endblock %}
