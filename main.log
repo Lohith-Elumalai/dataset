@@ -16,11 +16,21 @@
 2024-12-19 15:13:09,982 - INFO - Inserted 5 logs into the database.
 2024-12-19 15:13:09,982 - INFO - Logs cleaned based on the provided keywords and log levels.
 2024-12-19 15:13:09,982 - INFO - Exported logs to processed_logs.csv
+<<<<<<< HEAD
+2024-12-19 16:11:20,073 - INFO - Inserted 5 logs into the database.
+2024-12-19 16:11:20,073 - INFO - Logs cleaned based on the provided keywords and log levels.
+2024-12-19 16:11:20,088 - INFO - Exported logs to processed_logs.csv
+=======
 2024-12-19 15:57:25,008 - INFO - Inserted 5 logs into the database.
 2024-12-19 15:57:25,008 - INFO - Logs cleaned based on the provided keywords and log levels.
 2024-12-19 15:57:25,012 - INFO - Exported logs to processed_logs.csv
 2024-12-19 16:14:24,896 - INFO - Inserted 52 logs into the database.
 2024-12-19 16:14:24,896 - INFO - Logs cleaned based on the provided keywords and log levels.
+<<<<<<< HEAD
 2024-12-19 16:14:24,896 - INFO - Exported logs to processed_logs.csv2024-12-19 17:19:53,888 - INFO - Inserted 52 logs into the database.
 2024-12-19 17:19:53,888 - INFO - Logs cleaned based on the provided keywords and log levels.
 2024-12-19 17:19:53,900 - INFO - Exported logs to processed_logs.csv
+=======
+2024-12-19 16:14:24,896 - INFO - Exported logs to processed_logs.csv
+>>>>>>> 6c796753340675a2bae5aecc855d502eb3654db5
+>>>>>>> f24de748080d31f2fbb0b7756c461b004db53796

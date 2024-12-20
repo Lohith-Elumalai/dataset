@@ -14,6 +14,8 @@ timestamp,log_level,message
 2024-12-19,14:30:45,WARNING Disk space running low
 2024-12-19,14:31:15,ERROR File not found: large_log_file.txt
 2024-12-19,14:32:30,INFO Log parsing completed successfully
+<<<<<<< HEAD
+=======
 2024-12-19,14:28:41,ERROR Error during log processing: [Errno 2] No such file or directory
 2024-12-19,14:29:00,INFO Starting log processing for dataset X
 2024-12-19,14:29:15,DEBUG Loading configuration settings from config.yaml
@@ -66,6 +68,7 @@ timestamp,log_level,message
 2024-12-19,14:49:00,"DEBUG System performance metrics: CPU=45%, Memory=67%"
 2024-12-19,14:49:30,WARNING Unusual traffic pattern detected
 2024-12-19,14:50:00,INFO Investigation started for traffic anomaly
+<<<<<<< HEAD
 2024-12-19,14:28:41,ERROR Error during log processing: [Errno 2] No such file or directory
 2024-12-19,14:29:00,INFO Starting log processing for dataset X
 2024-12-19,14:29:15,DEBUG Loading configuration settings from config.yaml
@@ -118,3 +121,6 @@ timestamp,log_level,message
 2024-12-19,14:49:00,"DEBUG System performance metrics: CPU=45%, Memory=67%"
 2024-12-19,14:49:30,WARNING Unusual traffic pattern detected
 2024-12-19,14:50:00,INFO Investigation started for traffic anomaly
+=======
+>>>>>>> 6c796753340675a2bae5aecc855d502eb3654db5
+>>>>>>> f24de748080d31f2fbb0b7756c461b004db53796
